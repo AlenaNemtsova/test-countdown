@@ -1,0 +1,31 @@
+.timer {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  column-gap: 2px;
+}
+
+.timer__item-text,
+.timer__item-symbol {
+  font-size: var(--text-5xl);
+  font-weight: var(--weight-semibold);
+  line-height: var(--line-height-xsmall);
+  color: var(--color-darkblue);
+}
+
+@media (max-width: 1023px) {
+  .timer {
+    margin-top: 30px;
+  }
+}
+
+@media (max-width: 767px) {
+  .timer {
+    margin-top: 40px;
+  }
+
+  .timer__item-text,
+  .timer__item-symbol {
+    font-size: var(--text-3xl);
+  }
+}

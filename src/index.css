@@ -1,0 +1,65 @@
+@import "./assets/css/normalize.css";
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Roboto&display=swap");
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+:root {
+  /* Fonts */
+  --family-primary: "Poppins", sans-serif;
+  --family-secondary: "Roboto", sans-serif;
+
+  /* Line Heights */
+  --line-height-xsmall: 1;
+  --line-height-small: 1.04;
+  --line-height-base: 1.5;
+
+  /* Font Sizes */
+  --text-sm: 14px;
+  --text-base: 16px;
+  --text-lg: 18px;
+  --text-xl: 24px;
+  --text-2xl: 32px;
+  --text-3xl: 36px;
+  --text-4xl: 40px;
+  --text-5xl: 72px;
+
+  /* Font Weights */
+  --weight-regular: 400;
+  --weight-semibold: 600;
+  --weight-bold: 700;
+
+  /* Border Radiuses */
+  --border: 40px;
+
+  /* Colors */
+  --color-black: rgba(0, 0, 0, 0.8);
+  --color-dim-black: rgba(0, 0, 0, 0.6);
+  --color-darkblue: rgba(22, 44, 78, 1);
+  --color-dim-darkblue: rgba(22, 44, 78, 0.6);
+  --color-blue: rgba(29, 65, 105, 1);
+  --color-lightblue: rgba(164, 173, 186, 1);
+  --color-grey: rgba(217, 217, 217, 1);
+  --color-white: rgba(255, 255, 255, 1);
+  --color-red: rgba(223, 34, 36, 1);
+}
+
+body {
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  background-color: var(--color-white);
+
+  font-family: var(--family-primary);
+  font-size: var(--text-lg);
+  font-weight: var(--weight-regular);
+  line-height: var(--line-height-base);
+}
+
+a {
+  text-decoration: none;
+}

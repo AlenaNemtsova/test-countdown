@@ -1,0 +1,23 @@
+.button-wrapper {
+  margin-top: 12px;
+  display: flex;
+  justify-content: center;
+}
+
+.button-container {
+  padding: 16px 20px 17px 28px;
+  display: flex;
+  column-gap: 35px;
+  background-color: var(--color-blue);
+  border-radius: var(--border);
+}
+
+.event-button {
+  color: var(--color-white);
+}
+
+@media (max-width: 767px) {
+  .button-wrapper {
+    margin-top: 15px;
+  }
+}
